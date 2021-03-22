@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<!-- Daftar konten
+1. Header (navbar)
+2.
+3.
+4.
+#. Footer -->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../../css/navbar.css">
+        <link rel="stylesheet" href="../../css/slideshow.css">
+        <link rel="stylesheet" href="../../css/image.css">
+        <link rel="stylesheet" href="../../css/admin.css">
+
+
+          
+            <title>ADMIN: TAMBAH ARTIKEL</title>
+            
+            </head>
+            <body>
+
+            <!-- ================
+              Header (navbar)
+            ================= -->
+
+            <header >
+           <div id="nav-adjust">
+           
+            <div class="navbar sticky" >
+              
+              <img class="logo" src="../../img/mini-logo.png" width="60px" height="60px" style="display: inline-block;">
+              <span style="display: inline-block;"></span>
+              
+              
+
+            </div>
+            </div>
+          </header>
+
+             <!-- ================
+              Main body
+            ================= -->
+
+
+    
+<div class="admin-wrapper">
+
+    <div class="left-sidebar">
+    <ul>
+        <li><a href="index.html">Manage Posts</a></li>
+        <li><a href="../user/index.html">Manage Users</a></li>
+        <li><a href="../topic/index.html">Manage Topics</a></li>
+    </ul>
+    </div>
+
+    <div class="admin-content">
+
+    <div class="button-group">
+        <button class="btn-btn-big"><a href="create.html" class="btn-btn-big2"> Tambah artikel</a></button>
+        <button class="btn-btn-big"><a href="index.html" class="btn-btn-big2"> Kelola artikel</a></button>
+    </div>
+
+    <div class="content">
+    <h2 class="page-title">Kelola artikel</h2>
+
+        <form action="create.html" method="POST">
+         <div>
+             <label>Judul</label><br>
+             <input type="text" name="judul" id="" class="text-input">
+         </div>
+
+         <div>
+            <label>Isi Konten</label><br>
+            <textarea name="body" id="body" ></textarea>
+        </div>
+
+        <div>
+          <label>Gambar</label><br>
+          <input type="file" name="gambar" class="text-input">
+        </div>
+
+        <div>
+            <label>Kategori</label><br>
+            <select name="topic" class="text-input">
+                <option value=""></option>
+                <option value="Kebersihan">Kebersihan</option>
+                <option value="Lowongan">Lowongan</option>
+                <option value="Security">Security</option>
+                <option value="Organisasi">Organisasi</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit" class="btn-btn-big btn-btn-big2">Publikasi</button>
+        </div>
+
+        </form>
+
+    </div>
+    </div>
+
+</div>
+  
+
+ 
+<!--
+<footer class="footer">
+<div class="footer-kiri">
+  <img src="../../img/mini-logo.png"></img>
+  <p> Telusuri kami dari sini </p>
+  <div class="sosmed">
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-instagram"></i></a>
+  <a href="#"><i class="fa fa-youtube"></i></a>
+  <a href="#"><i class="fa fa-whatsapp"></i></a>
+  </div>
+</div>
+
+<ul class="footer-kanan">
+
+  <li>
+     <h2> Layanan </h2>
+       <ul class="box">
+       <div class="footer-active">
+         <li ><a href="#"> Tema </a></li>
+         <li ><a href="#"> Tema </a></li>
+         <li ><a href="#"> Tema </a></li>
+         <li ><a href="#"> Tema </a></li>
+        </div>
+       </ul>
+       
+  </li>
+
+   <li class="fitur">
+     <h2> Berita terbaru</h2>
+     
+       <ul class="box">
+       <div class="footer-active">
+         <li ><a href="#"> berita 1 </a></li>
+         <li><a href="#"> berita 1</a></li>
+         <li><a href="#"> berita 1 </a></li>
+        </div>
+       </ul>
+      
+  </li>
+
+   <li>
+     <h2>Alamat </h2>
+       <ul class="box">
+       <div class="footer-active">
+         <li>Jl. Patukan Raya, Ambarketawang, Gamping, Sleman, Yogyakarta</li>
+         <br>
+        
+         <li><b>No. Telepon:</b></li>
+         <li><a href="#">0214-6499-550 </a></li>
+         <li><a href="#">0878-2164-6100 </a></li>
+       </ul>
+       </div>
+  </li>
+</ul>
+
+<div class="footer-bawah">
+<div class="footer-bawah-border">
+<p>&copy;PT. Adidaya Bima Perkasa 2021</p>
+</div>
+</div>
+</footer> -->
+
+     
+             
+            <script src="https://cdnjs.cloudfare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="https://cdn.ckeditor.com/ckeditor5/26.0.0/classic/ckeditor.js"></script>
+            <script src="../../js/dropdown.js"></script>
+            <script src="../../js/slideshow.js"></script>
+            <script src="../../js/sticky-scroll.js"></script>
+            <script src="../../js/shrink-scroll.js"></script>
+            <script src="../../js/nav-adjust.js"></script>
+            <script src="../../js/skrollr.js"></script>
+            <script type="text/javascript">
+            var s = srollr.init();
+            </script>
+
+    </body>
+</html>
